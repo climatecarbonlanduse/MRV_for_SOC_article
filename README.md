@@ -15,3 +15,7 @@ spatial_work_IACS.py - this file is a starting point of using the IACS data to c
 ##
 
 zonal_prepp.py - this script compiles a historical crop time-series. It takes spatial data (likely zonal statistics from rasters) representing the dominant ("majority") crop grown on specific agricultural blocks for each year. It formats this data and merges the historical timeline (2003–2020) into a single master shapefile.
+
+##
+##
+Soil_sampling_bridge_work.py - This script bridges your soil sampling data with the historical crop data. First, it calculates the change in Soil Organic Carbon over time (c_diff) and evaluates the SOC-to-clay ratio, which is a critical metric for understanding carbon saturation and sequestration potential in agricultural soils. Second, it categorizes the historical crop data into broad functional groups (cereals, rapeseed, ley/grass, legumes, fallow) and counts their frequency over the time series.
