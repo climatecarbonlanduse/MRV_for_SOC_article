@@ -20,3 +20,5 @@ Soil_sampling_bridge_work.py ---- This script bridges your soil sampling data wi
 ##
 
 building_majority_SMP_understanding.py ---- This script build the final synthesis of  majority crop data. It handles the crucial task of sorting and merging the historical crop records with your soil sample data, calculating the specific crop shares over time, and preparing the consolidated dataframe for  analysis.
+
+
