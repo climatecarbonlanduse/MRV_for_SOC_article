@@ -10,3 +10,8 @@ Listed are the methods developed and the codes that are linked to these for full
 ##
 
 spatial_work_IACS.py - this file is a starting point of using the IACS data to create a long term history/record of land use. Specificed for Sweden should be adapted for national or regional purpose. 
+
+##
+##
+
+zonal_prepp.py - this script compiles a historical crop time-series. It takes spatial data (likely zonal statistics from rasters) representing the dominant ("majority") crop grown on specific agricultural blocks for each year. It formats this data and merges the historical timeline (2003–2020) into a single master shapefile.
