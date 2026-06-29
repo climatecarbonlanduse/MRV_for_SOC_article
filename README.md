@@ -19,3 +19,8 @@ zonal_prepp.py - this script compiles a historical crop time-series. It takes sp
 ##
 ##
 Soil_sampling_bridge_work.py - This script bridges your soil sampling data with the historical crop data. First, it calculates the change in Soil Organic Carbon over time (c_diff) and evaluates the SOC-to-clay ratio, which is a critical metric for understanding carbon saturation and sequestration potential in agricultural soils. Second, it categorizes the historical crop data into broad functional groups (cereals, rapeseed, ley/grass, legumes, fallow) and counts their frequency over the time series.
+
+##
+##
+
+This script build the final synthesis of  majority crop data. It handles the crucial task of sorting and merging the historical crop records with your soil sample data, calculating the specific crop shares over time, and preparing the consolidated dataframe for  analysis.
